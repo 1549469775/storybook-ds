@@ -1,0 +1,14 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import { withKnobs, select, boolean } from '@storybook/addon-knobs';
+
+import CreditCard from '../src/CreditCard.js';
+<Meta title="CreditCard" component={CreditCard} />
+
+
+# Credit card
+
+- This component must use `inputmode="numeric"` in order to bring up the correct keyboard on mobile. 
+
+<Story name="standard">
+  <CreditCard />
+</Story>
