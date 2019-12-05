@@ -1,0 +1,26 @@
+.gg-c-input--daymonthyear {
+    display: flex;
+    align-items: center;
+
+    input {
+        width: 48px;
+    }
+
+    input:last-of-type {
+        width: 70px;
+    }
+
+    span {
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 20px;
+    }
+}
+
+p {
+    color: #666666;
+}
+
+input {
+    margin-top: 4px;
+}

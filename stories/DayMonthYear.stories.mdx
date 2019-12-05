@@ -1,17 +1,13 @@
 import { Meta, Story } from "@storybook/addon-docs/blocks";
 import { withKnobs, select, boolean } from "@storybook/addon-knobs";
-import CreditCard from "../src/CreditCard.js";
+import DayMonthYear from "../src/DateOfBirth.js";
 
-<Meta title="CreditCard" component={CreditCard} />
+<Meta title="Day Month Year" component={DayMonthYear} />
 
-# Credit card
+# Day/Month/Year
 
 - This component must use `inputmode="numeric"` in order to bring up the correct keyboard on mobile.
 
 <Story name="standard">
-  <CreditCard />
-</Story>
-
-<Story name="fancy">
-  <CreditCard />
+  <DayMonthYear />
 </Story>
