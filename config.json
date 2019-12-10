@@ -1,0 +1,5 @@
+{
+    "scssFile": "styles/style.scss",
+    "scssLintDir": "styles",
+    "outputDirectory": "_site"
+}

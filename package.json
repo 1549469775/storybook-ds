@@ -1,8 +1,10 @@
 {
-  "name": "gg-ds",
+  "name": "gg-react-components-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@giffgaff/fe-styleguide": "48.4.0",
+    "classnames": "^2.2.6",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
